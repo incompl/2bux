@@ -1,0 +1,20 @@
+{
+  "name": "gigaquery",
+  "version": "0.1.0",
+  "homepage": "https://github.com/incompl/gigaquery",
+  "description": "because less is more",
+  "main": "src/gigaquery.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "authors": [
+    "Greg Smith"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
