@@ -8,24 +8,28 @@
   else {
     // Browser globals
     root.$ = factory();
+    root.$$ = root.$.$$;
   }
 }(this, function () {
 
-  return function(selector, single, context) {
-    if (single === undefined) {
-      single = true;
-    }
+  var $ = function(selector, context) {
     if (context === undefined) {
       context = document;
     }
-    var nl;
-    if (single) {
-      nl = context.querySelector(selector);
+    return context.querySelector(selector);
+  };
+
+  var $$ = function(selector, context) {
+    if (context === undefined) {
+      context = document;
     }
-    else {
-      nl = context.querySelectorAll(selector);
-    }
+    var nl = context.querySelectorAll(selector);
     return Array.prototype.slice.call(nl);
   };
+
+  $.$ = $;
+  $.$$ = $$;
+
+  return $;
 
 }));
