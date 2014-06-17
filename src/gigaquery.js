@@ -18,7 +18,13 @@
     if (context === undefined) {
       context = document;
     }
-    var nl = context.querySelectorAll(selector);
+    var nl;
+    if (single) {
+      nl = context.querySelector(selector);
+    }
+    else {
+      nl = context.querySelectorAll(selector);
+    }
     return Array.prototype.slice.call(nl);
   };
 
