@@ -12,7 +12,7 @@ Using [Bower](http://bower.io/):
 
     bower install gigaquery
     
-Supports both [AMD](http://requirejs.org/docs/whyamd.html) and browser globals using [UMD](https://github.com/umdjs/umd/blob/master/amdWeb.js)
+Supports both [AMD](http://requirejs.org/docs/whyamd.html) and browser globals using [UMD](https://github.com/umdjs/umd/blob/master/amdWeb.js). If using AMD you can `require` it the usual way. Otherwise the `$` variable is placed in your global scope.
 
 Also you can grab the code right from the `src` directory in this repo.
 
