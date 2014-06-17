@@ -14,7 +14,7 @@ It's a tiny little napkinfull of code that lets you omit jQuery without going in
 
 ## How big is it?
 
-0.541 kb unminified
+0.636 kb unminified
 
 ## Installation
 
