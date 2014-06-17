@@ -12,6 +12,9 @@ It's a tiny little napkinfull of code that lets you omit jQuery without going in
 * Because `NodeList` doesn't have [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 * Because I have become accustomed to terse code
 
+## How big is it?
+
+0.541 kb unminified
 
 ## Installation
 
