@@ -67,5 +67,5 @@ $$('div').forEach(function(div) {
 
 // get children of an element
 var parent = $('#foo');
-var children = $('.bar', parent);
+var children = $$('.bar', parent);
 ```
