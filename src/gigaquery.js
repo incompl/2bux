@@ -13,13 +13,11 @@
 }(this, function () {
 
   var $ = function(selector, context) {
-    context = context || document;
-    return context.querySelector(selector);
+    return (context || document).querySelector(selector);
   };
 
   var $$ = function(selector, context) {
-    context = context || document;
-    var nl = context.querySelectorAll(selector);
+    var nl = (context || document).querySelectorAll(selector);
     return Array.prototype.slice.call(nl);
   };
 
