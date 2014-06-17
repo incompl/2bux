@@ -13,16 +13,12 @@
 }(this, function () {
 
   var $ = function(selector, context) {
-    if (context === undefined) {
-      context = document;
-    }
+    context = context || document;
     return context.querySelector(selector);
   };
 
   var $$ = function(selector, context) {
-    if (context === undefined) {
-      context = document;
-    }
+    context = context || document;
     var nl = context.querySelectorAll(selector);
     return Array.prototype.slice.call(nl);
   };
