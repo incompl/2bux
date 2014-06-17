@@ -29,7 +29,7 @@ Also you can grab the code right from the `src` directory in this repo.
 
 * `selector` is a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_Started/Selectors)
 * `single` is a boolean (default false) that determines if you want a single DOM element or an Array of DOM elements. This lets you choose between `querySelector` and `querySelectorAll`.
-* `context` is a DOM element (default `document`). Only children of `context` are queried. It's as if you had called `querySelector` on that DOM element rather than on the `document` object.
+* `context` is a DOM element (default `document`). Only children of `context` are queried. It's as if you had called `querySelector(All)` on that DOM element rather than on the `document` object.
 
 ## Examples
 
