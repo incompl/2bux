@@ -8,15 +8,19 @@ It's a tiny little napkinfull of code that lets you not use jQuery without going
 
 ## Installation
 
+Using [Bower](http://bower.io/):
+
     bower install gigaquery
     
 Supports both [AMD](http://requirejs.org/docs/whyamd.html) and browser globals using [UMD](https://github.com/umdjs/umd/blob/master/amdWeb.js)
+
+Also you can grab the code right from the `src` directory in this repo.
 
 ## Why
 
 * Becuase `document.querySelectorAll` is too long to type; I'd rather just type `$`
 * Because `NodeList` doesn't have [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* Because I have become accostomed to terse code
+* Because I have become accustomed to terse code
 
 ## Examples
 
