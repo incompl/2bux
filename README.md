@@ -4,7 +4,7 @@ a better dom selection api
 
 ## What is it
 
-It's a tiny little napkinfull of code that lets you omit jQuery without going insane. It's literally just [document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector) / [document.querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll) but the latter returns an [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instead of a [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) and both have some optional extra arguments.
+It's a tiny little napkinfull of code that lets you omit jQuery without going insane. It's literally just [document.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector) / [document.querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll) but the latter returns an [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) instead of a [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) and both have an extra optional `context` argument.
 
 ## Why
 
@@ -39,7 +39,7 @@ var $ = require("gigaquery"), $$ = $.$$;
 ## API
 
 ```javascript
-$(selector, context); // returns a single DOM element
+$(selector, context); // returns a single element
 ```
 
 ```javascript
