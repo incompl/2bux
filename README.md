@@ -1,4 +1,4 @@
-# gigaquery
+# 2bux
 
 a better dom selection api
 
@@ -21,10 +21,10 @@ It's a tiny little napkinfull of code that lets you omit jQuery without going in
 Using [Bower](http://bower.io/):
 
 ```
-bower install gigaquery
+bower install 2bux
 ```
 
-(you can also just grab the code [here](https://github.com/incompl/gigaquery/tree/master/src))
+(you can also just grab the code [here](https://github.com/incompl/2bux/tree/master/src))
 
 Supports both [AMD](http://requirejs.org/docs/whyamd.html) and browser globals using [UMD](https://github.com/umdjs/umd/blob/master/amdWeb.js).
 
@@ -33,7 +33,7 @@ The `$` and `$$` variables are placed in your global scope unless you are using 
 With AMD, to get both `$` and `$$`, you should do this:
 
 ```javascript
-var $ = require("gigaquery"), $$ = $.$$;
+var $ = require("2bux"), $$ = $.$$;
 ```
 
 ## API

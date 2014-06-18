@@ -1,5 +1,5 @@
 {
-  "name": "gigaquery",
+  "name": "2bux",
   "version": "0.1.0",
   "description": "because less is more",
   "main": "src/gagaquery.js",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/incompl/gigaquery.git"
+    "url": "https://github.com/incompl/2bux.git"
   },
   "author": "Greg Smith",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/incompl/gigaquery/issues"
+    "url": "https://github.com/incompl/2bux/issues"
   },
   "devDependencies": {
     "phantom": "~0.6.3",

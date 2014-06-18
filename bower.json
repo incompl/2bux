@@ -1,9 +1,9 @@
 {
-  "name": "gigaquery",
+  "name": "2bux",
   "version": "0.1.0",
-  "homepage": "https://github.com/incompl/gigaquery",
+  "homepage": "https://github.com/incompl/2bux",
   "description": "because less is more",
-  "main": "src/gigaquery.js",
+  "main": "src/2bux.js",
   "moduleType": [
     "amd",
     "globals"
