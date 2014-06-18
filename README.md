@@ -12,6 +12,24 @@ It's a tiny little napkinfull of code that lets you omit jQuery without going in
 * Because `NodeList` doesn't have [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 * Because I have become accustomed to terse code
 
+Would you rather write this:
+
+```javascript
+var divsNodeList = document.querySelectorAll('div');
+var divsArray = Array.prototype.slice.call(divsNodeList);
+divsArray.forEach(function(div) {
+  console.log(div.innerText);
+});
+```
+
+or this?
+
+```javascript
+$$('div').forEach(function(div) {
+  console.log(div.innerText);
+});
+```
+
 ## How big is it?
 
 <1 kb unminified
