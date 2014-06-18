@@ -47,7 +47,7 @@ $$(selector, context); // returns an array of elements
 ```
 
 * `selector` is a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_Started/Selectors)
-* `context` is a DOM element (default `document`). Only children of `context` are queried. It's as if you had called `querySelector` or `querySelectorAll` on that DOM element rather than on the `document` object.
+* `context` is an optional DOM element (default `document`). Only children of `context` are queried. It's as if you had called `querySelector` or `querySelectorAll` on that DOM element rather than on the `document` object.
 
 ## Examples
 
