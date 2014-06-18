@@ -30,6 +30,10 @@ $$('div').forEach(function(div) {
 });
 ```
 
+## Can't I just use jQuery?
+
+Yes! In fact, you definitely want to use jQuery if you want compatibility with older browsers and/or all the million other cool things that jQuery provides. If all you want is to query the DOM and you're only needing browsers that support it natively, you shouldn't have to use jQuery just to get a humane API. That's where 2bux comes in.
+
 ## How big is it?
 
 <1 kb unminified
