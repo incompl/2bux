@@ -69,3 +69,9 @@ $$('div').forEach(function(div) {
 var parent = $('#foo');
 var children = $$('.bar', parent);
 ```
+
+## Testing
+
+* `npm install`
+* `sudo npm install nodeunit -g`
+* `nodeunit test`

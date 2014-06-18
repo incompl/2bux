@@ -1,0 +1,25 @@
+{
+  "name": "gigaquery",
+  "version": "0.1.0",
+  "description": "because less is more",
+  "main": "src/gagaquery.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incompl/gigaquery.git"
+  },
+  "author": "Greg Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incompl/gigaquery/issues"
+  },
+  "devDependencies": {
+    "phantom": "~0.6.3",
+    "connect": "~2.19.6"
+  }
+}
