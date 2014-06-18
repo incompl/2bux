@@ -24,7 +24,7 @@ Using [Bower](http://bower.io/):
 bower install gigaquery
 ```
 
-(you can also just grab the code from [this repo](https://github.com/incompl/gigaquery/tree/master/src))
+(you can also just grab the code [here](https://github.com/incompl/gigaquery/tree/master/src))
 
 Supports both [AMD](http://requirejs.org/docs/whyamd.html) and browser globals using [UMD](https://github.com/umdjs/umd/blob/master/amdWeb.js).
 
