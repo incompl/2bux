@@ -1,6 +1,6 @@
 {
   "name": "2bux",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/incompl/2bux",
   "description": "because less is more",
   "main": "src/2bux.js",
@@ -13,9 +13,8 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test"
+    "**/*",
+    "!LICENSE",
+    "!/src/2bux.js"
   ]
 }
