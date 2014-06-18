@@ -1,6 +1,6 @@
 # 2bux
 
-a better dom selection api
+a terse dom selection api
 
 ## What is it
 
