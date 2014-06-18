@@ -8,7 +8,7 @@ It's a tiny little napkinfull of code that lets you omit jQuery without going in
 
 ## Why
 
-* Becuase `document.querySelectorAll` is too long to type; I'd rather just type `$$`
+* Becuase `document.querySelectorAll` is too long to type
 * Because `NodeList` doesn't have [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 * Because I have become accustomed to terse code
 
