@@ -92,8 +92,8 @@ var parent = $('#foo');
 var children = $$('.bar', parent);
 ```
 
-## Testing
+## Building
 
-* `npm install`
-* `sudo npm install nodeunit -g`
-* `nodeunit test`
+* `npm install` to install dependencies
+* `grunt test` to test
+* `grunt` to build
