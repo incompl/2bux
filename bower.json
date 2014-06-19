@@ -1,9 +1,9 @@
 {
   "name": "2bux",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/incompl/2bux",
-  "description": "because less is more",
-  "main": "src/2bux.js",
+  "description": "a terse dom selection api",
+  "main": "dest/2bux.min.js",
   "moduleType": [
     "amd",
     "globals"
@@ -15,6 +15,6 @@
   "ignore": [
     "**/*",
     "!LICENSE",
-    "!/src/2bux.js"
+    "!/dest/2bux.min.js"
   ]
 }
