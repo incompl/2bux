@@ -46,7 +46,7 @@ Using [Bower](http://bower.io/):
 bower install 2bux
 ```
 
-(you can also just grab the code [here](https://github.com/incompl/2bux/tree/master/src))
+(you can also just grab the code [here](https://github.com/incompl/2bux/tree/master/dest))
 
 Supports both [AMD](http://requirejs.org/docs/whyamd.html) and browser globals using [UMD](https://github.com/umdjs/umd/blob/master/amdWeb.js).
 
