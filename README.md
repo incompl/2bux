@@ -36,7 +36,7 @@ Yes! In fact, you definitely want to use jQuery if you want compatibility with o
 
 ## How big is it?
 
-298 B minified
+0.291 kB
 
 ## Installation
 
