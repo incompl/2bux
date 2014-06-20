@@ -18,7 +18,7 @@ Would you rather write this:
 var divsNodeList = document.querySelectorAll('div');
 var divsArray = Array.prototype.slice.call(divsNodeList);
 divsArray.forEach(function(div) {
-  console.log(div.innerText);
+  console.log(div.textContent);
 });
 ```
 
@@ -26,7 +26,7 @@ or this?
 
 ```javascript
 $$('div').forEach(function(div) {
-  console.log(div.innerText);
+  console.log(div.textContent);
 });
 ```
 
